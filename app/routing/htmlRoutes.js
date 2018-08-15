@@ -16,37 +16,15 @@ module.exports = function (app) {
     // ---------------------------------------------------------------------------
 
     app.get('/', function (req, res) {
-        //res.sendFile(path.join(__dirname + '/../public/home.html'));
-        console.log(path.join(__dirname + '/../public/home.html'));
-        res.send("This is the Index Page");
+        res.sendFile(path.join(__dirname + '/../public/home.html'));
+        //console.log(path.join(__dirname + '/../public/home.html'));
+        //res.send("This is the Index Page");
     });
-
+    
     app.get('/survey', function (req, res) {
-        //res.sendFile(path.join(__dirname + '/../public/survey.html'));
-        res.send("This is the Survey Page");
-    });
-
-    app.post('/api/friends', function (req, res) {
-        //var cereal=JSON.parse(req);
-        //res.send('post cereal')
-        res.json({
-            "name":"Joe Blow",
-            "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-            "scores":[
-                5,
-                1,
-                4,
-                4,
-                5,
-                1,
-                2,
-                5,
-                4,
-                1
-              ]
-          }
-        
-        );
+        res.sendFile(path.join(__dirname + '/../public/survey.html'));
+        //console.log(path.join(__dirname + '/../public/survey.html'));
+        //res.send("This is the Survey Page");
     });
 
     // If no matching route is found default to home

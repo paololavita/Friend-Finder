@@ -25,8 +25,24 @@ var PORT = process.env.PORT || 8080;
 // These routes give our server a "map" of how to respond when users visit or request data from various URLs.
 // ================================================================================
 
-//require("./app/routing/api-routes.js")(app);
-require("./app/routing/htmlRoutes.js")(app);
+require("./app/routing/apiRoutes")(app);
+require("./app/routing/htmlRoutes")(app);
+
+// create application/json parser
+var jsonParser = bodyParser.json()
+ 
+// create application/x-www-form-urlencoded parser
+var urlencodedParser = bodyParser.urlencoded({ extended: false })
+
+// parse various different custom JSON types as JSON
+app.use(bodyParser.json({ type: 'application/*+json' }))
+ 
+// parse some custom thing into a Buffer
+app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }))
+ 
+// parse an HTML body into a string
+app.use(bodyParser.text({ type: 'text/html' }))
+
 
 /*app.get('/', (req, res) => res.send('Hello World!'))
 
@@ -34,7 +50,7 @@ app.get('/survey', function (req, res) {
     res.send('survey')
   })*/
   
-app.get('/api/friends', function (req, res) {
+/*app.get('/api/friends', function (req, res) {
     res.json({
         "name":"Joe Blow",
         "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
@@ -57,7 +73,7 @@ app.get('/api/friends', function (req, res) {
     var cereal=JSON.parse(req);
     res.send('post cereal')
     //res.send(cereal)
-  })
+  })*/
 
 
 
