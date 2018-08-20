@@ -43,40 +43,6 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }))
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }))
 
-
-/*app.get('/', (req, res) => res.send('Hello World!'))
-
-app.get('/survey', function (req, res) {
-    res.send('survey')
-  })*/
-  
-/*app.get('/api/friends', function (req, res) {
-    res.json({
-        "name":"Joe Blow",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
-            2,
-            5,
-            4,
-            1
-          ]
-      })
-})
-  
-  app.post('/api/friends', function (req, res) {
-    var cereal=JSON.parse(req);
-    res.send('post cereal')
-    //res.send(cereal)
-  })*/
-
-
-
 // ==============================================================================
 // LISTENER
 // The below code effectively "starts" our server
