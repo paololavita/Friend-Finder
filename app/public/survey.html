@@ -241,14 +241,8 @@
 
     // Capture the form inputs
     $("#submit").on("click", function (event) {
-      // Grab the URL of the website
-      test();
+      
       event.preventDefault();
-
-      function test() {
-        var currentURL = window.location.origin;
-        alert(currentURL + "/api/friends");
-      }
 
       // Form validation
       function validateForm() {
@@ -288,9 +282,13 @@
           ]
         };
 
+        alert(userData.name);
+        
+        // Grab the URL of the website
+        var currentURL = window.location.origin;
 
         // AJAX post the data to the friends API.
-        $.post("/api/friends", userData, function (data) {
+        $.post(currentURL + "/api/friends", userData, function (data) {
 
 
           // Grab the result from the AJAX post so that the best match's name and photo are displayed.

@@ -44,6 +44,9 @@ app.use(bodyParser.raw({ type: 'application/vnd.custom-type' }))
 // parse an HTML body into a string
 app.use(bodyParser.text({ type: 'text/html' }))
 
+// use this for all 'static' paths
+app.use('/static', express.static(path.join(__dirname, 'app/public')))
+
 // ==============================================================================
 // LISTENER
 // The below code effectively "starts" our server
