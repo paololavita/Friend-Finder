@@ -1,71 +1,71 @@
 var friends = [
     {
         "name":"Alice",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media.giphy.com/media/BMWzwQfKWGP17i5CHW/giphy.gif",
         "scores":[
-            5,
-            1,
-            4,
-            4,
-            5,
-            1,
             2,
-            5,
+            1,
+            3,
             4,
-            1
+            5,
+            1,
+            4,
+            3,
+            2,
+            3
           ]
       },
       {
         "name":"Grace",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media.giphy.com/media/TFiyJbXqn3kMmvjgy5/giphy.gif",
         "scores":[
-            5,
             1,
-            4,
-            4,
             5,
+            2,
+            2,
+            1,
+            5,
+            4,
             1,
             2,
-            5,
-            4,
-            1
-          ]
-      },
-      {
-        "name":"Janet",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
-        "scores":[
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            5,
-            4,
             5
           ]
       },
       {
-        "name":"Pierre",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "name":"Janet",
+        "photo":"https://media.giphy.com/media/oHvwKBxvhK6k4sf1dw/giphy.gif",
         "scores":[
-            5,
             1,
-            4,
-            4,
+            3,
             5,
-            1,
+            4,
             2,
+            1,
+            3,
             5,
             4,
-            1
+            2
+          ]
+      },
+      {
+        "name":"Pierre",
+        "photo":"https://media.giphy.com/media/elDBGQi91sPoqC9j1o/giphy.gif",
+        "scores":[
+            4,
+            2,
+            3,
+            1,
+            4,
+            5,
+            3,
+            2,
+            3,
+            2
           ]
       },
       {
         "name":"Lennox",
-        "photo":"https://media.giphy.com/media/GDuOdHz0lCzNS/giphy.gif",
+        "photo":"https://media.giphy.com/media/wJ4VAOhbTot2x1ikfJ/giphy.gif",
         "scores":[
             5,
             1,
@@ -81,66 +81,66 @@ var friends = [
       },
       {
         "name":"Shirley",
-        "photo":"http://33.media.tumblr.com/cf9686363fde6ca698a9b5b603eef01a/tumblr_ms0bxt7ThZ1r9zaago1_500.gif",
+        "photo":"https://media.giphy.com/media/tZB6m97aqrfogIiovf/giphy.gif",
         "scores":[
+            2,
+            3,
             1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
+            4,
+            5,
+            3,
+            2,
+            2,
+            5,
             1
           ]
       },
       {
         "name":"Liz",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media.giphy.com/media/1ynTcFbdzui3SawHNf/giphy.gif",
         "scores":[
+            5,
+            4,
+            3,
+            2,
             1,
             1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
+            2,
+            3,
+            4,
+            5
           ]
       },
       {
         "name":"Nelya",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media.giphy.com/media/Zcz0GXHr7mjNvsShIj/giphy.gif",
         "scores":[
-            1,
-            1,
-            1,
-            1,
-            1,
+            4,
+            3,
             2,
-            1,
-            1,
-            1,
-            1
+            4,
+            2,
+            5,
+            4,
+            3,
+            2,
+            4
           ]
       },
       {
         "name":"Mohamed",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media.giphy.com/media/B1DnZMtzYGvQiKcxIn/giphy.gif",
         "scores":[
+            5,
+            2,
+            3,
+            4,
+            2,
             1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1,
-            1
+            5,
+            4,
+            2,
+            3
           ]
       }
       
