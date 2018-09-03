@@ -7,7 +7,11 @@
 
   <!-- Latest compiled and minified CSS & JS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://code.jquery.com/jquery.js"></script>
+  <!--<script src="https://code.jquery.com/jquery.js"></script>-->
+  <script
+  src="https://code.jquery.com/jquery-2.2.4.min.js"
+  integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+  crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
   <!-- Font Awesome Glyphicons -->
@@ -217,6 +221,7 @@
     </div>
   </div>
 
+  
   <script type="text/javascript">
     // Chosen CSS
     var config = {
@@ -282,7 +287,8 @@
           ]
         };
 
-        alert(userData.name);
+        console.log(userData.name);
+        console.log(userData.photo);
         
         // Grab the URL of the website
         var currentURL = window.location.origin;

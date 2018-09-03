@@ -4,10 +4,10 @@
 // ===============================================================================
 
 var friends = require("../data/friends.js");
-var bodyParser = require("body-parser");
+//var bodyParser = require("body-parser");
 
 // create application/json parser
-var jsonParser = bodyParser.json()
+//var jsonParser = bodyParser.json()
 
 // ===============================================================================
 // ROUTING
@@ -19,20 +19,27 @@ module.exports = function (app) {
     // In each of the below cases the user is shown an HTML page of content
     // ---------------------------------------------------------------------------
 
-    app.get('/api/friends', function (req, res) {
+    app.get('/api/friends', function(req, res) {
         res.json(friends);
     });
 
-    app.post('/api/friends', jsonParser, function (req, res) {
+    app.post('/api/friends', function(req, res) {
 
         var bestMatch = {
             name: "",
             photo: "",
             friendDifference: 1000
         };
+        
+        /*var userData = {
+            name: "Donald Duck",
+            photo: "Duckburg",
+            scores: [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
+        };*/
 
         console.log("We are here!");
         console.log(req.body);
+        console.log("and it's FULL!");
 
         // Here is where we take the results of the user's survey responses POST and parse through it.
         var userData = req.body;
@@ -51,7 +58,7 @@ module.exports = function (app) {
             totalDifference = 0;
 
             // Then we will loop through all the scoers of each friend in the database
-            for (var j = 0; i < friends[i].scores[i]; j++) {
+            for (var j = 0; j < friends[j].scores[j]; j++) {
 
                 // We calculate the difference between the scores and the sum them into the totalDifference
                 totalDifference += Math.abs(parseInt(userScores[j])) - parseInt(friends[i].scores[j]);
@@ -75,6 +82,7 @@ module.exports = function (app) {
 
         // Return a JSON with the user's bestMatch. This will be used by the HTML on the next page
         res.json(bestMatch);
+        console.log("This is the best match: " + bestMatch.name + " period!");
     });
 
 }
