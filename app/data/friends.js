@@ -1,7 +1,7 @@
 var friends = [
     {
-        "name":"Alice",
-        "photo":"https://media.giphy.com/media/BMWzwQfKWGP17i5CHW/giphy.gif",
+        "name":"Harper Jadyn",
+        "photo":"https://media.giphy.com/media/f0yOYF0EtwSVa/giphy.gif",
         "scores":[
             2,
             1,
@@ -16,8 +16,8 @@ var friends = [
           ]
       },
       {
-        "name":"Grace",
-        "photo":"https://media.giphy.com/media/TFiyJbXqn3kMmvjgy5/giphy.gif",
+        "name":"Angel Temple",
+        "photo":"https://media.giphy.com/media/ErZ8hv5eO92JW/giphy.gif",
         "scores":[
             1,
             5,
@@ -32,8 +32,8 @@ var friends = [
           ]
       },
       {
-        "name":"Janet",
-        "photo":"https://media.giphy.com/media/oHvwKBxvhK6k4sf1dw/giphy.gif",
+        "name":"Hildred Sascha",
+        "photo":"https://media.giphy.com/media/3o7btMCltyDvSgF92E/giphy.gif",
         "scores":[
             1,
             3,
@@ -48,8 +48,8 @@ var friends = [
           ]
       },
       {
-        "name":"Pierre",
-        "photo":"https://media.giphy.com/media/elDBGQi91sPoqC9j1o/giphy.gif",
+        "name":"Lesley Cherokee",
+        "photo":"https://media.giphy.com/media/bqSkJ4IwNcoZG/giphy.gif",
         "scores":[
             4,
             2,
@@ -64,8 +64,8 @@ var friends = [
           ]
       },
       {
-        "name":"Lennox",
-        "photo":"https://media.giphy.com/media/wJ4VAOhbTot2x1ikfJ/giphy.gif",
+        "name":"Marijn Harper",
+        "photo":"https://media.giphy.com/media/F99PZtJC8Hxm0/giphy.gif",
         "scores":[
             5,
             1,
@@ -80,8 +80,8 @@ var friends = [
           ]
       },
       {
-        "name":"Shirley",
-        "photo":"https://media.giphy.com/media/tZB6m97aqrfogIiovf/giphy.gif",
+        "name":"Li Yuval",
+        "photo":"https://media.giphy.com/media/l0IxZkXQw9A7OqbbW/giphy.gif",
         "scores":[
             2,
             3,
@@ -96,8 +96,8 @@ var friends = [
           ]
       },
       {
-        "name":"Liz",
-        "photo":"https://media.giphy.com/media/1ynTcFbdzui3SawHNf/giphy.gif",
+        "name":"Quinn Mel",
+        "photo":"https://media.giphy.com/media/9dhgKatYHfEuA/giphy.gif",
         "scores":[
             5,
             4,
@@ -112,8 +112,8 @@ var friends = [
           ]
       },
       {
-        "name":"Nelya",
-        "photo":"https://media.giphy.com/media/Zcz0GXHr7mjNvsShIj/giphy.gif",
+        "name":"Hunter Briar",
+        "photo":"https://media.giphy.com/media/Y01jP8QeLOox2/giphy.gif",
         "scores":[
             4,
             3,
@@ -128,8 +128,8 @@ var friends = [
           ]
       },
       {
-        "name":"Mohamed",
-        "photo":"https://media.giphy.com/media/B1DnZMtzYGvQiKcxIn/giphy.gif",
+        "name":"Karam Sabah",
+        "photo":"https://media.giphy.com/media/Rl6TvAg4JAWAM/giphy.gif",
         "scores":[
             5,
             2,
