@@ -65,7 +65,7 @@ var friends = [
       },
       {
         "name":"Lennox",
-        "photo":"https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/6/005/064/1bd/3435aa3.jpg",
+        "photo":"https://media.giphy.com/media/GDuOdHz0lCzNS/giphy.gif",
         "scores":[
             5,
             1,
@@ -83,16 +83,16 @@ var friends = [
         "name":"Shirley",
         "photo":"http://33.media.tumblr.com/cf9686363fde6ca698a9b5b603eef01a/tumblr_ms0bxt7ThZ1r9zaago1_500.gif",
         "scores":[
-            5,
-            2,
-            4,
-            4,
-            5,
-            2,
-            2,
-            5,
-            4,
-            2
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1
           ]
       },
       {
