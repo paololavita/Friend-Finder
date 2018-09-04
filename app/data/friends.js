@@ -1,7 +1,7 @@
 var friends = [
     {
         "name":"Harper Jadyn",
-        "photo":"https://media.giphy.com/media/f0yOYF0EtwSVa/giphy.gif",
+        "photo":"http://media.giphy.com/media/f0yOYF0EtwSVa/giphy.gif",
         "scores":[
             2,
             1,
@@ -17,7 +17,7 @@ var friends = [
       },
       {
         "name":"Angel Temple",
-        "photo":"https://media.giphy.com/media/ErZ8hv5eO92JW/giphy.gif",
+        "photo":"http://media.giphy.com/media/ErZ8hv5eO92JW/giphy.gif",
         "scores":[
             1,
             5,
@@ -33,7 +33,7 @@ var friends = [
       },
       {
         "name":"Hildred Sascha",
-        "photo":"https://media.giphy.com/media/3o7btMCltyDvSgF92E/giphy.gif",
+        "photo":"http://media.giphy.com/media/3o7btMCltyDvSgF92E/giphy.gif",
         "scores":[
             1,
             3,
@@ -49,7 +49,7 @@ var friends = [
       },
       {
         "name":"Lesley Cherokee",
-        "photo":"https://media.giphy.com/media/bqSkJ4IwNcoZG/giphy.gif",
+        "photo":"http://media.giphy.com/media/bqSkJ4IwNcoZG/giphy.gif",
         "scores":[
             4,
             2,
@@ -65,7 +65,7 @@ var friends = [
       },
       {
         "name":"Marijn Harper",
-        "photo":"https://media.giphy.com/media/F99PZtJC8Hxm0/giphy.gif",
+        "photo":"http://media.giphy.com/media/F99PZtJC8Hxm0/giphy.gif",
         "scores":[
             5,
             1,
@@ -81,7 +81,7 @@ var friends = [
       },
       {
         "name":"Li Yuval",
-        "photo":"https://media.giphy.com/media/l0IxZkXQw9A7OqbbW/giphy.gif",
+        "photo":"http://media.giphy.com/media/l0IxZkXQw9A7OqbbW/giphy.gif",
         "scores":[
             2,
             3,
@@ -97,7 +97,7 @@ var friends = [
       },
       {
         "name":"Quinn Mel",
-        "photo":"https://media.giphy.com/media/9dhgKatYHfEuA/giphy.gif",
+        "photo":"http://media.giphy.com/media/9dhgKatYHfEuA/giphy.gif",
         "scores":[
             5,
             4,
@@ -113,7 +113,7 @@ var friends = [
       },
       {
         "name":"Hunter Briar",
-        "photo":"https://media.giphy.com/media/Y01jP8QeLOox2/giphy.gif",
+        "photo":"http://media.giphy.com/media/Y01jP8QeLOox2/giphy.gif",
         "scores":[
             4,
             3,
@@ -129,7 +129,7 @@ var friends = [
       },
       {
         "name":"Karam Sabah",
-        "photo":"https://media.giphy.com/media/Rl6TvAg4JAWAM/giphy.gif",
+        "photo":"http://media.giphy.com/media/Rl6TvAg4JAWAM/giphy.gif",
         "scores":[
             5,
             2,
@@ -142,8 +142,57 @@ var friends = [
             2,
             3
           ]
-      }
+      },
+        {
+          name: "Scottie Lileas",
+          photo: "http://media.giphy.com/media/9KGNVznLCpOdq/giphy.gif",
+          scores: [
+            5,
+            1,
+            4,
+            4,
+            5,
+            1,
+            2,
+            5,
+            4,
+            1
+          ]
+        },
+        {
+          name: "Kara Rasim",
+          photo: "http://media.giphy.com/media/l0IxZkXQw9A7OqbbW/giphy.gif",
+          scores: [
+            4,
+            2,
+            5,
+            1,
+            3,
+            2,
+            2,
+            1,
+            3,
+            2
+          ]
+        },
+        {
+          name: "Samuela Massimo",
+          photo: "http://media.giphy.com/media/13Z5kstwARnPna/giphy.gif",
+          scores: [
+            5,
+            2,
+            2,
+            2,
+            4,
+            1,
+            3,
+            2,
+            5,
+            5
+          ]
+        }
       
 ];
-
+      
+// export the array
 module.exports = friends;

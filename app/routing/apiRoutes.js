@@ -4,10 +4,6 @@
 // ===============================================================================
 
 var friends = require("../data/friends.js");
-//var bodyParser = require("body-parser");
-
-// create application/json parser
-//var jsonParser = bodyParser.json()
 
 // ===============================================================================
 // ROUTING
@@ -30,22 +26,10 @@ module.exports = function (app) {
             photo: "",
             friendDifference: 1000
         };
-        
-        /*var userData = {
-            name: "Donald Duck",
-            photo: "Duckburg",
-            scores: [ 5, 5, 5, 5, 5, 5, 5, 5, 5, 5]
-        };*/
-
-        console.log("We are here!");
-        console.log(req.body);
-        console.log("and it's FULL!");
 
         // Here is where we take the results of the user's survey responses POST and parse through it.
         var userData = req.body;
         var userScores = userData.scores;
-
-        console.log(userScores)
 
         // This variable will calculate the difference between the user's scores and the scores of each user
         // in the database
@@ -66,7 +50,7 @@ module.exports = function (app) {
                 // If the sum of difference is less then the difference of the current "Best Match"
                 if (totalDifference <= bestMatch.friendDifference) {
 
-                    //Reset teh bestMatch to be the new friend
+                    //Reset the bestMatch to be the new friend
                     bestMatch.name = friends[i].name;
                     bestMatch.photo = friends[i].photo;
                     bestMatch.friendDifference = totalDifference;
